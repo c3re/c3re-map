@@ -74,7 +74,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{<lobby>\/maps\/erfas-spaces-north.json#start_c3re}"
+                 "value":"https:\/\/lobby.maps.at.rc3.world\/\/maps\/erfas-spaces-north.json#start_c3re"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -226,8 +226,17 @@
          "tilewidth":32
         }, 
         {
+         "columns":2,
          "firstgid":1711,
-         "source":"worldExit.tsx"
+         "image":"worldExit.png",
+         "imageheight":64,
+         "imagewidth":64,
+         "margin":0,
+         "name":"worldExit",
+         "spacing":0,
+         "tilecount":4,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
